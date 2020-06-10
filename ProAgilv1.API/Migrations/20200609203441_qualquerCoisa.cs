@@ -14,9 +14,7 @@ namespace ProAgilv1.API.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "ImagemURL",
-                table: "Eventos");
+            
         }
     }
 }
