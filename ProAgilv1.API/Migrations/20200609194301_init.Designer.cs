@@ -32,6 +32,8 @@ namespace ProAgilv1.API.Migrations
 
                     b.Property<string>("Tema");
 
+                
+
                     b.HasKey("EventoId");
 
                     b.ToTable("Eventos");
